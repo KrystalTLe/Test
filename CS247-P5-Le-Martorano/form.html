@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<link rel="stylesheet" type="text/css" href="form.css">
+	</head>
+	<body>
+		<!-- Form Page Container -->
+		<div class="form-page">
+			<!-- Form Container -->
+			<div class="form">
+				<!-- Form -->
+				<form action="validate.php" method="get">
+					<!-- Name Field -->
+					<label>Name</label>
+					<input id="name" type="text" name="name" />
+
+					<!-- Address Field -->
+					<label>Address</label>
+					<input id="address" type="text" name="address" />
+					
+					<!-- Age Field -->
+					<label></label>
+					<span>Age</span>
+					<input id="age" type="number" name="age" />
+					
+					<!-- Major Field -->
+					<label>Major 
+					<input id="field" type="text" name="field"></label>
+					
+					<!-- Password Field -->
+					<label>Password
+					<input id="password" type="password" name="password" ></label>
+
+					<label><input type="radio" name="record" value="add_record">
+					Add Record</label>
+					<label><input type="radio" name="record" value="retrieve_record" class="buttonSpace">
+					Retrieve Record</label>
+
+					<!--Buttons-->
+					<div id="buttons">
+						<input type="submit" name="submit">    
+						<input type="reset" name="reset"> 
+					</div>				     
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
